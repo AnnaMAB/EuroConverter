@@ -10,7 +10,7 @@ public class SekToEuroController {
 
     @GetMapping("/sek2euro")
     public Double getConversion(Double sek) {
-        Double euro = sek * 11.03;
+        Double euro = sek * 0.091;
         return euro;
     }
 
